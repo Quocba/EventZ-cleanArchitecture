@@ -1,0 +1,97 @@
+From: EventZ <g1food.fpt@gmail.com>
+Date: Fri, 14 Mar 2025 07:49:01 +0700
+Subject: [EventZ
+ =?utf-8?b?U+G7sSBraeG7h24gU+G7sSBraeG7h24gaOG7mWkgdGjhuqNvIGPDtG5nIG5naOG7hw==?=
+ =?utf-8?b?IHPhuq9wIGRp4buFbg==?= ra]
+Message-Id: <42BS5HIVMPU4.OL2A99EU0RIC@desktop-b7fges3>
+Sender: EventZ <g1food.fpt@gmail.com>
+To: khanglam707@gmail.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+
+
+<!DOCTYPE html>
+<html lang='vi'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Nhắc nhở sự kiện</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            background: #f7f7f7;;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .header {
+            background: linear-gradient(135deg, #3a0ca3, #4361ee);
+            color: #ffffff;
+            padding: 15px;
+            text-align: center;
+            font-size: 20px;
+            border-radius: 10px 10px 0 0;
+        }
+        .logo {
+            max-width: 100px;
+            display: block;
+            margin: 0 auto 10px;
+            filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.7));
+        }
+                .content {
+                    padding: 20px;
+                    text-align: left;
+                    background: #ffffff;
+                    border-radius: 10px;
+                }
+                .content ul {
+                    list-style-type: none;
+                    padding: 0;
+                }
+                .content ul li {
+                    background: #eef1ff;
+                    padding: 10px;
+                    margin-bottom: 8px;
+                    border-radius: 5px;
+                    color: #333;
+                }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            font-size: 14px;
+            background: linear-gradient(135deg, #3a0ca3, #4361ee);
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div class='container'>
+        <div class='header'>
+            <img src="https://4lua.sgp1.digitaloceanspaces.com/EventZ/970a4b7f-baa8-402a-929d-8802839cb235_PNG-04.png" alt="Event Logo" class="logo">
+            <div>Nhắc nhở sự kiện sắp tới</div>
+        </div>
+        <div class='content'>
+            <p>Chào <strong>Guest2</strong>,</p>
+            <p>Bạn có một sự kiện sắp diễn ra:</p>
+            <ul>
+                <li><strong>Sự kiện:</strong> Sự kiện hội thảo công nghệ</li>
+                <li><strong>Thời gian:</strong> 16/03/2025 19:00</li>
+                <li><strong>Địa điểm:</strong> Số 1, Đường Công Nghệ, Hà Nội</li>
+            </ul>
+            <p>Hãy sắp xếp thời gian để tham dự nhé!</p>
+        </div>
+        <div class='footer'>
+            <p>Trân trọng,</p>
+            <p><strong>Đội ngũ tổ chức sự kiện</strong></p>
+        </div>
+    </div>
+</body>
+</html>

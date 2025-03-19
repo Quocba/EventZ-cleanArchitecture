@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Asp.Versioning.Http" Version="8.1.0" />
+    <PackageReference Include="Asp.Versioning.Mvc" Version="8.1.0" />
+    <PackageReference Include="Asp.Versioning.Mvc.ApiExplorer" Version="8.1.0" />
+    <PackageReference Include="Carter" Version="8.1.0" />
+    <PackageReference Include="MassTransit" Version="8.3.6" />
+    <PackageReference Include="MassTransit.RabbitMQ" Version="8.3.6" />
+    <PackageReference Include="MediatR" Version="12.4.1" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.13" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="8.0.13" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.13">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Base.API\Base.API.csproj" />
+    <ProjectReference Include="..\..\EventBus\MasstransitRabbitMQ.Contract\RabbitMQ.Contract.csproj" />
+    <ProjectReference Include="..\..\Identity\Identity.Infrastructure.RabbitMQ\Identity.Infrastructure.RabbitMQ.csproj" />
+    <ProjectReference Include="..\EventProduct.Application\EventProduct.Application.csproj" />
+    <ProjectReference Include="..\EventProduct.Domain\EventProduct.Domain.csproj" />
+    <ProjectReference Include="..\EventProduct.Infrastructure.RabbitMQ\EventProduct.Infrastructure.RabbitMQ.csproj" />
+    <ProjectReference Include="..\EventProduct.Infrastructure\EventProduct.Infrastructure.csproj" />
+    <ProjectReference Include="..\EventProduct.Presentation\EventProduct.Presentation.csproj" />
+  </ItemGroup>
+
+</Project>

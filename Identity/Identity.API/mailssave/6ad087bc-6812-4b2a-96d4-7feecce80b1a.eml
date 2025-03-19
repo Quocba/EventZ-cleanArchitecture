@@ -1,0 +1,10 @@
+From: EventZ <g1food.fpt@gmail.com>
+Date: Sat, 22 Feb 2025 09:32:02 +0700
+Subject: Confirm email
+Message-Id: <K6NASJSRGPU4.37BSVC8W70QJ@nghiahh>
+Sender: EventZ <g1food.fpt@gmail.com>
+To: string
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+
+https://localhost:7000/api/v1/auth/confirm-email?userId=67356981-0e4e-4d44-9376-9fc8789dec7e&code=463315

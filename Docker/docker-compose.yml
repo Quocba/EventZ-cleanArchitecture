@@ -1,0 +1,34 @@
+version: "3.8"
+
+services:
+  identity.api:
+    build:
+      context: Identity/Identity.API/ # Đi lên thư mục gốc để truy cập Identity/Identity.API
+      dockerfile: Dockerfile
+    container_name: identity_api
+    ports:
+      - "5001:5001" # Expose cổng API
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      # - ConnectionStrings__DefaultConnection=Server=identity-db;Database=IdentityDb;User Id=sa;Password=YourPassword;
+    # depends_on:
+    #   - identity-db
+    networks:
+      - backend_network
+
+  # identity-db:
+  #   image: postgres:latest # Hoặc mssql nếu bạn dùng SQL Server
+  #   container_name: identity_db
+  #   restart: always
+  #   environment:
+  #     POSTGRES_DB: IdentityDb
+  #     POSTGRES_USER: admin
+  #     POSTGRES_PASSWORD: YourPassword
+  #   ports:
+  #     - "5432:5432" # Expose cổng database
+  #   networks:
+  #     - backend_network
+
+networks:
+  backend_network:
+    driver: bridge
