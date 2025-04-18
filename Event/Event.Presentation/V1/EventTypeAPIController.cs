@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Base.API;
 using Event.Application.Feature.EventType;
-using Event.Application.Feature.EventType.GetAllEventType;
+using Event.Application.Feature.EventType.Queries.GetAllEventType;
 using Event.Application.Feature.EventType.Queries.GetByID;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
